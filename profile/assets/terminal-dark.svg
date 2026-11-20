@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="322" viewBox="0 0 1200 322" role="img" aria-label="Principios de Tetsu Studio">
+  <rect x="0.5" y="0.5" width="1199" height="321" rx="18" fill="#151517" stroke="#262628"/>
+  <circle cx="34" cy="32" r="6.5" fill="#ff5f56"/><circle cx="56" cy="32" r="6.5" fill="#ffbd2e"/><circle cx="78" cy="32" r="6.5" fill="#27c93f"/>
+  <text x="600" y="37" text-anchor="middle" font-family="ui-monospace, 'JetBrains Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#8f8f90">~/tetsustudio</text>
+  <line x1="0" y1="56" x2="1200" y2="56" stroke="#262628"/>
+  <g font-family="ui-monospace, 'JetBrains Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="17">
+        <text x="36" y="92"><tspan fill="#ff5a1f">$ </tspan><tspan fill="#ffffff">whoami</tspan></text>
+    <text x="36" y="122">  <tspan fill="#8f8f90">tetsustudio · estudio de software, AI first</tspan></text>
+    <text x="36" y="152"><tspan fill="#ff5a1f">$ </tspan><tspan fill="#ffffff">cat principios.txt</tspan></text>
+    <text x="36" y="182"><tspan fill="#27c93f">+ </tspan><tspan fill="#ffffff">Una app, un problema</tspan></text>
+    <text x="36" y="212"><tspan fill="#27c93f">+ </tspan><tspan fill="#ffffff">Independientes: su base, su deploy</tspan></text>
+    <text x="36" y="242"><tspan fill="#27c93f">+ </tspan><tspan fill="#ffffff">Un solo login para todas (Zitadel)</tspan></text>
+    <text x="36" y="272"><tspan fill="#27c93f">+ </tspan><tspan fill="#ffffff">Local-first cuando suma</tspan></text>
+    <text x="36" y="302"><tspan fill="#ff5a1f">$ </tspan></text>
+    <rect x="56" y="284" width="10" height="20" fill="#ffffff"><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1s" repeatCount="indefinite"/></rect>
+  </g>
+</svg>

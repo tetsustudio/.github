@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-label="Tetsu Studio: software forjado a medida">
+  <defs>
+    <linearGradient id="ember" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox" spreadMethod="reflect">
+      <stop offset="0.1" stop-color="#e2470f"/>
+      <stop offset="0.5" stop-color="#f59e0b"/>
+      <stop offset="0.9" stop-color="#e2470f"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-0.5 0;0.5 0;-0.5 0" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.82" cy="0.5" r="0.45">
+      <stop offset="0" stop-color="#e2470f" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#e2470f" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.1" fill="#000000" fill-opacity="0.07"/>
+    </pattern>
+    <clipPath id="frame"><rect width="1200" height="400" rx="24"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="400" fill="#ffffff"/>
+    <rect width="1200" height="400" fill="url(#dots)"/>
+    <rect width="1200" height="400" fill="url(#glow)">
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="5s" repeatCount="indefinite"/>
+    </rect>
+    <svg x="830" y="70" width="260" height="260" viewBox="18 -95 980 980">
+      <g transform="translate(0 818) scale(1 -1)"><path d="M132 97Q113 93 96.5 105.0Q80 117 77 137Q70 189 64 218Q60 237 71.5 253.5Q83 270 103.0 274.0Q123 278 139.5 266.5Q156 255 160 235Q165 209 173 153Q176 133 164.0 117.0Q152 101 132 97ZM371 240Q374 260 390.0 273.0Q406 286 426 284Q446 283 459.0 266.5Q472 250 470 230Q466 191 463 175Q460 155 442.5 142.5Q425 130 405.0 133.0Q385 136 373.0 152.5Q361 169 364 189Q367 206 371 240ZM47 535 40 575Q31 628 73 666Q118 705 167 763Q204 807 260 807H289Q344 807 386 767Q421 733 460 702Q462 700 465.0 701.0Q468 702 469 705Q476 733 480 752Q485 775 504.0 787.5Q523 800 546 796L569 792Q592 787 606.0 767.0Q620 747 616 724Q615 722 615.0 719.0Q615 716 614 714Q612 705 621 705H654Q662 705 662 713V762Q662 785 679.0 801.5Q696 818 719 818H761Q784 818 800.5 801.5Q817 785 817 762V713Q817 705 826 705H908Q931 705 948.0 688.0Q965 671 965 648V632Q965 609 948.0 592.0Q931 575 908 575H826Q817 575 817 566V449V444Q817 436 826 436H918Q941 436 958.0 419.0Q975 402 975 379V358Q975 335 958.0 318.5Q941 302 918 302H835Q826 302 828 293Q852 158 943 84Q963 68 970.5 44.0Q978 20 970 -3L958 -38Q950 -59 928.5 -65.5Q907 -72 890 -59Q797 14 738 140Q734 146 730 140Q653 11 531 -64Q511 -76 490.0 -68.0Q469 -60 461 -39L450 -12Q447 -6 440 -10Q428 -18 416 -21Q271 -53 118 -75Q95 -78 76.0 -63.5Q57 -49 54 -26L52 -15Q49 8 63.5 26.5Q78 45 101 48Q115 50 143.5 54.5Q172 59 186 61Q194 63 194 71V306Q194 314 186 314H116Q93 314 76.0 331.0Q59 348 59 371V380Q59 403 76.0 420.0Q93 437 116 437H186Q194 437 194 445V494Q194 502 186 502H143Q133 502 126.0 509.5Q119 517 119 527Q118 528 117 529Q115 527 110.0 522.0Q105 517 102 515Q87 502 69.0 508.5Q51 515 47 535ZM535 444Q531 436 540 436H654Q662 436 662 444V449V566Q662 575 654 575H590Q581 575 579 566Q560 506 535 444ZM396 502H350Q341 502 341 494V445Q341 437 350 437H389Q412 437 428.5 420.0Q445 403 445 380V371Q445 348 428.5 331.0Q412 314 389 314H350Q341 314 341 306V96Q341 87 351 89Q359 90 377.0 94.0Q395 98 403 99Q438 105 457 75Q458 72 462.0 71.5Q466 71 468.0 73.0Q470 75 476 79Q608 160 644 294Q646 302 638 302H527Q504 302 487.0 318.5Q470 335 470 358V403Q470 416 479.5 426.0Q489 436 503 436Q506 436 504 438L451 469Q432 480 424 499Q421 507 412 505Q397 502 396 502ZM215 628Q210 621 218 621H356Q358 621 359.0 623.5Q360 626 358 627Q324 660 287 703Q281 709 276 703Q253 671 215 628Z" fill="url(#ember)"/></g>
+    </svg>
+    <text x="72" y="104" font-family="ui-monospace, 'JetBrains Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="15" letter-spacing="4" fill="#737373">鉄 · TETSU = HIERRO</text>
+    <text x="72" y="186" font-family="ui-rounded, 'Nunito', 'SF Pro Rounded', 'Segoe UI', system-ui, sans-serif" font-size="66" font-weight="800" letter-spacing="-1.5" fill="#000000">Software <tspan fill="url(#ember)">forjado</tspan></text>
+    <text x="72" y="262" font-family="ui-rounded, 'Nunito', 'SF Pro Rounded', 'Segoe UI', system-ui, sans-serif" font-size="66" font-weight="800" letter-spacing="-1.5" fill="#000000">a medida.</text>
+    <text x="72" y="318" font-family="'Inter', -apple-system, 'Segoe UI', system-ui, sans-serif" font-size="20" fill="#737373">Apps independientes sobre servidores propios. AI first.</text>
+    <g font-family="ui-monospace, 'JetBrains Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#737373">
+      <circle cx="78" cy="353" r="4" fill="#27c93f"><animate attributeName="opacity" values="1;0.35;1" dur="2.4s" repeatCount="indefinite"/></circle>
+      <text x="92" y="357">tetsustudio.com</text>
+    </g>
+    <rect x="0.5" y="0.5" width="1199" height="399" rx="24" fill="none" stroke="#e0e0e0"/>
+  </g>
+</svg>
